@@ -5,13 +5,40 @@
   font-style: normal;
 }
 
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Playfair Display", serif;
+}
+
 h1 {
-  color: red;
+  font-size: 96px;
+}
+
+.hero {
   font-family: "Playfair Display", serif;
+  background: #f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
   font-weight: bold;
 }
 
-p {
-  font-family: "Playfair Display", serif;
+.hero h2 {
   font-weight: normal;
+  font-size: 24px;
+}
+
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
